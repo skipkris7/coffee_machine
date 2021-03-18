@@ -1,0 +1,73 @@
+body{
+  background: url('../img/coffee.jpg');
+}
+.container.rounded{
+  background: rgb(184,115,58,.7);
+}
+.coffee-btn-group{
+  background: #FCF5E4;
+  height:60px;
+  width: 400px;
+  color: #3A2113;
+  font-size:2em;
+  font-style: italic;
+  border-radius: 50px;
+  font-weight: 600;
+  border:1px solid wheat;
+}
+.coffee-btn-group>span{
+  vertical-align: top;
+}
+.coffee-btn{
+  width:60px !important;
+  height:60px;
+  background: #794228;
+  cursor:pointer;
+  border:1px solid #AF5A5A;
+  box-shadow: 1px 1px 5px black;
+  display: inline-block;
+}
+.coffee-btn:hover{
+  background: #800000;
+}
+.coffee-btn:active{
+  background: red;
+  box-shadow: inset 0 0 10px black;
+}
+#display{
+  width: 100%;
+  height: 150px;
+  background: #794228;
+  color: white;
+  border:5px groove #8B4513;
+}
+[src$='rub.jpg']{
+  cursor: pointer;
+  z-index: 1;
+}
+[src$='rub.jpg']:active{
+  filter: contrast(1.5);
+}
+#change_box{
+  background: #C4996C;
+  width: 80%;
+  height: 200px;
+  border:5px groove #8B4513;
+  position: relative;
+}
+[src$='rub.png']{
+  width: 60px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  }
+#lock{
+  width: 100vh;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+}
+#coffee_cup{
+  width: 175px;
+}
